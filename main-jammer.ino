@@ -23,6 +23,8 @@ int ch1 = 45;   // Variable to store value of ch
 ezButton toggleSwitch(33);
 
 
+
+
 void two() {
   if (flagv == 0) {  // If flag is 0, increment ch by 4 and ch1 by 1
 
@@ -74,6 +76,7 @@ void one() {
 */
 
 }
+
 
 
 void setup() {
