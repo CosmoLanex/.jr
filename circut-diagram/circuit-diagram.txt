@@ -1,0 +1,33 @@
+ESP32 - no1:
+  
+NRF24L01+PA/LNA  - no1:
+SCK = G14, MISO = G12, MOSI = G13, CS = G15 , CE = G16
+ESP-1
+
+NRF24L01+PA/LNA   - no2:
+SCK = G18, MISO = G19, MOSI = G23 ,CS = G21 ,CE = G22
+ESP-1
+
+SLIDE SWITCH:
+middle = GND, right = G33
+ESP-1
+
+
+ESP32 - no2:
+
+0.96 inch OLED Display:
+VCC = 3.3V, GND = GND, SDA = GPIO 4, SCL = GPIO 5
+ESP-2
+
+Push Buttons:
+UP:  button pin1 = G25, button pin2 = GND
+DOWN: button pin1 = G27, button pin2 = GND
+MIDDLE: button pin1 = G26, button pin2 = GND
+
+
+ESP32 - no1 and no2:
+
+ESP1- TX = ESP2- RX, ESP1- RX = ESP2- TX
+
+
+Circuit Diagram link: https://app.cirkitdesigner.com/project/870d9182-9367-47eb-bef0-2a379b8e2756
