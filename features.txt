@@ -1,0 +1,8 @@
+1. Blue jammer, 
+2. Wifi jammer, 
+3. Create multiple networks, 
+4. Receive common radio frequencys, 
+5. Scan wifi / bluetooth, 
+6. Settings, 
+7. Increase/decrease the power of the jammer, 
+8. Send alerts to surrounding mobile devices (custom alerts)
