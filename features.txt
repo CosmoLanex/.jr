@@ -6,3 +6,15 @@
 6. Settings, 
 7. Increase/decrease the power of the jammer, 
 8. Send alerts to surrounding mobile devices (custom alerts)
+
+WorkFlow:
+Select Commands from the 0.96-in OLED Display
+2x push-buttons to select options
+1x push-button to activate/deactivate
+
+WORK:
+OLED DISPLAY selects command to execute --> ESP32-no2 --> gives command to ESP32-no1 --> ESP32-no1 executes command and sends to ESP32-no2 to display in OLED DISPLAY to show what is been done / active or inactive
+
+FLOW:
+DISPLAY -> SELECT(through buttons) -> CLICK TO SELECT -> ACTIVATE -> ESP32-no2 -> ESP32-no1 -> NRF24L01 -> EXECUTE
+
